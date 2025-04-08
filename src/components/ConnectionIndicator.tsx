@@ -33,7 +33,7 @@ const ConnectionIndicator: React.FC<ConnectionIndicatorProps> = ({
           <div className={`absolute inset-0 rounded-full ${ringColor} opacity-75 animate-ping`}></div>
         )}
       </div>
-      <span className="text-sm font-medium">{statusText}</span>
+      <span className="text-sm font-medium text-black">{statusText}</span>
     </div>
   );
 };
